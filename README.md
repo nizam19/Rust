@@ -1,3 +1,4 @@
 # Rust
-A repo for Rust PL
-Run all programs on a shell for best experience
+My Rust codes
+
+Just play it [here](https://repl.it/repls/CalculatingDigitalMode)
