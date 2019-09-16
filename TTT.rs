@@ -48,10 +48,10 @@ fn main() {
         if x{println!("O Turn");}
         else{println!("X Turn");}
         println!("_____________");        //custom formatting
-        for mut i in 0..3
+        for i in 0..3
         {
             print!("| ");
-            for mut j in 0..3
+            for j in 0..3
             {
                 if arr[i][j]==1{print!("{} ",'X');}
                 else if arr[i][j]==0{print!("{} ",'O');}
@@ -142,10 +142,10 @@ fn main() {
     println!("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
         println!("Your Last Play-");
         println!("_____________");
-        for mut i in 0..3
+        for i in 0..3
         {
             print!("| ");
-            for mut j in 0..3
+            for j in 0..3
             {
                 if arr[i][j]==1{print!("{} ",'X');}
                 else if arr[i][j]==0{print!("{} ",'O');}
